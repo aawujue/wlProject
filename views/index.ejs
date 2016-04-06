@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<link rel="stylesheet" type="text/css" href="libs/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<body>
+<header>
+	<div class="log col-md-10">
+		<%= user%>
+	</div>
+	<div class="col-md-2">
+		<button type="button" class="btn btn-default">注册</button>
+		<button type="button" class="btn btn-default">登陆</button>
+	</div>
+</header>
+	
+	<div class="inputWrapper">
+			<form class="form-signin">
+				<label for="inputEmail" class="sr-only">用户名</label>
+				<input type="text" id="inputEmail" class="form-control" placeholder="用户名" required="" autofocus="">
+				<label for="inputPassword" class="sr-only">密码</label>
+				<input type="password" id="inputPassword" class="form-control" placeholder="密码" required="">
+				<div class="checkbox">
+				  <label>
+				    <input type="checkbox" value="remember-me"> 记住我
+				  </label>
+				</div>
+				<button class="btn btn-lg btn-primary btn-block" type="submit">登陆</button>
+				<button class="btn btn-lg btn-primary btn-block" >注册</button>
+			</form>
+	</div>
+<script type="text/javascript" src="libs/jquery.js"></script>
+<script type="text/javascript" src="libs/bootstrap.js"></script>
+</body>
+</html>

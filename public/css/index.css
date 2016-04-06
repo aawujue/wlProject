@@ -1,0 +1,26 @@
+body{
+	font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    color: #3e3e40;
+    position: relative;
+    background-color: #fff;
+}
+
+header{
+	height: 50px;
+	border-bottom: 1px solid #C9D6BD;
+	line-height: 50px; 
+}
+
+header{
+	height: 50px;
+
+	border-bottom: 1px solid #C9D6BD;
+	line-height: 50px;
+}
+.inputWrapper{
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 4em;
+	padding: 1em;
+}
